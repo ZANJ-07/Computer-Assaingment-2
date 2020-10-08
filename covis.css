@@ -1,0 +1,102 @@
+#para1{
+    color: black;
+font-size: 25px;
+}
+#head1{
+   color: black;
+   font-size: 30px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+.content{
+      font-size: 30px;
+
+}
+#main{
+    width: 3000px;
+    height: 300;
+    background-color:slateblue;
+}
+#ani{
+    margin-top: -300px;
+    margin-left: 700px;
+    width: 550px;
+}
+ #img1{
+     height: 35px;
+     width: 50px;
+ }
+ .cards{
+
+     display: flex;
+ --distance: -4rem;
+   margin-left: 20px;
+   place-content: center;
+   
+ }
+    .card{
+       font-size: 20px;
+       background: black ;  
+       color: #FFFAFA;
+       border-radius: 1rem;
+       margin: -20px;
+       padding: 2rem;
+       box-shadow: 0 1px 10px rgba(0,0,0,.7);
+         transition: 0.2s;
+         height: 200px;
+               width: 134px;
+               
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                   
+                    
+                   
+    }
+    .card:not(:first-child){
+        margin-left: var(--distance);
+
+
+    }
+   .card:hover{
+       transform: translatey(-2rem);
+      border: 2px solid;
+      border-color: whitesmoke;
+      
+   }
+   .card:hover ~ .card{
+       transform: translateX(calc(var(--distance)-1));
+
+      
+ 
+   }
+       .home{
+        margin-top: 20px;
+           margin-left: 0px;
+           width: 400px;
+    }
+    .trm{
+          margin-left: -70px;
+         width: 400px;
+    }
+    .ass{
+       padding-left: 500px;
+        background-color: black;
+        color: whitesmoke;
+        place-content: center;
+    }
+    .sani1{
+         margin-bottom: 50px;
+         margin-left: -70px;
+        width: 300px;
+        height: 300px;
+         
+     }
+     .hand{
+         width: 270px;
+          margin-bottom: -10px;
+          height: 450px;
+ 
+     }
+     .p1{
+         color: green;
+     }
+    
